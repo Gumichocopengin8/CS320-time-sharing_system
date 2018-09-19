@@ -40,3 +40,6 @@ Upon completion, please submit the following through Moodle.  This project is wo
 -	Your final audit log(s) (10 points)
 -	A lab write-up containing the results that you have found and your conclusions (10 points)
 -	During a lab period following the due date, you may be asked to provide a demonstration of your simulator in action and describe your design and results.
+
+## Python Version
+- Python 3.7.0
