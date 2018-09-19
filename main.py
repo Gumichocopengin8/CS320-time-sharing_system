@@ -2,18 +2,17 @@ import queue
 
 
 class Process:
-
     def __init__(self, name, processTime):
         self.name = name
         self.processTime = processTime
-        
+
 
 with open('test.txt','r') as file:
     ele = file.readline().split()
-    eleNum = int(ele[0])
-    quantum = int(ele[1])
+    eleNum = int(ele[0]) # number of process
+    quantum = int(ele[1]) # quantum
 
-    que = queue.Queue() 
+    que = queue.Queue() # queue
     for i in range(0, eleNum):
         stringArray = file.readline().split()
         process = Process(stringArray[0], int(stringArray[1]))
