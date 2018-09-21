@@ -10,7 +10,7 @@ class Process:
 with open('test.txt','r') as file:
     ele = file.readline().split()
     eleNum = int(ele[0]) # number of process
-    quantum = int(ele[1]) # quantum
+    TASK_TIME_LIMIT = int(ele[1]) # quantum
 
     que = queue.Queue() # queue
     for i in range(0, eleNum):
@@ -21,8 +21,8 @@ with open('test.txt','r') as file:
     CPUTime = 0
     while que.qsize() > 0:
         process = que.get()
-        CPUTime += quantum
-        process.processTime -= quantum
+        CPUTime += TASK_TIME_LIMIT
+        process.processTime -= TASK_TIME_LIMIT
         if process.processTime > 0:
             que.put(process)
             continue
