@@ -12,19 +12,19 @@ with open('test.txt','r') as file:
     eleNum = int(ele[0]) # number of process
     TASK_TIME_LIMIT = int(ele[1]) # quantum
 
-    que = queue.Queue() # queue
+    tasks = queue.Queue() # queue
     for i in range(0, eleNum):
         stringArray = file.readline().split()
         process = Process(stringArray[0], int(stringArray[1]))
-        que.put(process)
+        tasks.put(process)
 
     CPUTime = 0
-    while que.qsize() > 0:
-        process = que.get()
+    while tasks.qsize() > 0:
+        process = tasks.get()
         CPUTime += TASK_TIME_LIMIT
         process.processTime -= TASK_TIME_LIMIT
         if process.processTime > 0:
-            que.put(process)
+            tasks.put(process)
             continue
 
         CPUTime += process.processTime
