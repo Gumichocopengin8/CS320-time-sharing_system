@@ -26,3 +26,5 @@ with open('test.txt','r') as file:
         if process.time > 0:
             tasks.put(process)
         print("{0} {1}".format(process.name, CPUTime))
+
+    print("Complete time is {0}".format(CPUTime))
