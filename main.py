@@ -2,9 +2,9 @@ import queue
 
 
 class Process:
-    def __init__(self, name, processTime):
+    def __init__(self, name, time):
         self.name = name
-        self.processTime = processTime
+        self.time = time
 
 
 with open('test.txt','r') as file:
@@ -19,13 +19,10 @@ with open('test.txt','r') as file:
         tasks.put(process)
 
     CPUTime = 0
-    while tasks.qsize() > 0:
+    while not tasks.empty():
         process = tasks.get()
-        CPUTime += TASK_TIME_LIMIT
-        process.processTime -= TASK_TIME_LIMIT
-        if process.processTime > 0:
+        CPUTime += process.time if process.time < TASK_TIME_LIMIT else TASK_TIME_LIMIT
+        process.time -= TASK_TIME_LIMIT
+        if process.time > 0:
             tasks.put(process)
-            continue
-
-        CPUTime += process.processTime
         print("{0} {1}".format(process.name, CPUTime))
