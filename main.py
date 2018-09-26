@@ -13,18 +13,18 @@ with open('test.txt','r') as file:
     TASK_TIME_LIMIT = int(ele[1]) # quantum
 
     tasks = queue.Queue() # queue
-    for i in range(0, eleNum):
+    for i in range(0, eleNum): #add all the processes to the tasks queue
         stringArray = file.readline().split()
         process = Process(stringArray[0], int(stringArray[1]))
         tasks.put(process)
 
     CPUTime = 0
-    while not tasks.empty():
+    while not tasks.empty(): # while have processes
         process = tasks.get()
         CPUTime += process.time if process.time < TASK_TIME_LIMIT else TASK_TIME_LIMIT
         process.time -= TASK_TIME_LIMIT
-        if process.time > 0:
-            tasks.put(process)
+        if process.time > 0: # if process is not done
+            tasks.put(process) # put it pack on the queue
         print("{0} {1}".format(process.name, CPUTime))
-
+        
     print("Complete time is {0}".format(CPUTime))
