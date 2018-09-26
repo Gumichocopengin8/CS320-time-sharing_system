@@ -23,8 +23,9 @@ with open('test.txt','r') as file:
         process = tasks.get()
         CPUTime += process.time if process.time < TASK_TIME_LIMIT else TASK_TIME_LIMIT
         process.time -= TASK_TIME_LIMIT
-        if process.time > 0: # if process is not done
-            tasks.put(process) # put it pack on the queue
-        print("{0:<5} {1:>10}".format(process.name, CPUTime))
-        
+        if process.time > 0:
+            tasks.put(process)
+            print("{0:<5} {1:>10}: Time left for process: {2:>5}".format(process.name, CPUTime, process.time))
+        else:
+            print("{0:<5} {1:>10}: {2:<5} is complete".format(process.name, CPUTime, process.name))
     print("Complete time is {0}".format(CPUTime))
