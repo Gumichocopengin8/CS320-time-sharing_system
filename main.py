@@ -33,6 +33,6 @@ with open('test.txt','r') as file:
             print("{0:<5} {1:>10}: {2:<5} is complete".format(process.name, CPUTime, process.name))
     print("Complete time is {0}".format(CPUTime))
 
-with open('output.txt', 'a') as outFile:
+with open('output.txt', 'w') as outFile:
     # outFile.del('') # i will fix it 
     outFile.write(output)
