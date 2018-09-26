@@ -1,0 +1,66 @@
+set1         100: Time left for process:    50set2         180: set2  is completeset3         280: Time left for process:   100set4         380: Time left for process:   250set5         400: set5  is completeset6         410: set6  is completeset7         460: set7  is completeset8         560: Time left for process:   500set9         660: Time left for process:   150set10        760: Time left for process:   420set11        860: Time left for process:   120set12        960: Time left for process:   180set1        1010: set1  is completeset3        1110: set3  is completeset4        1210: Time left for process:   150set8        1310: Time left for process:   400set9        1410: Time left for process:    50set10       1510: Time left for process:   320set11       1610: Time left for process:    20set12       1710: Time left for process:    80set4        1810: Time left for process:    50set8        1910: Time left for process:   300set9        1960: set9  is completeset10       2060: Time left for process:   220set11       2080: set11 is completeset12       2160: set12 is completeset4        2210: set4  is completeset8        2310: Time left for process:   200set10       2410: Time left for process:   120set8        2510: Time left for process:   100set10       2610: Time left for process:    20set8        2710: set8  is completeset10       2730: set10 is completeset1         100: Time left for process:    50 
+set2         180: set2  is complete 
+set3         280: Time left for process:   100 
+set4         380: Time left for process:   250 
+set5         400: set5  is complete 
+set6         410: set6  is complete 
+set7         460: set7  is complete 
+set8         560: Time left for process:   500 
+set9         660: Time left for process:   150 
+set10        760: Time left for process:   420 
+set11        860: Time left for process:   120 
+set12        960: Time left for process:   180 
+set1        1010: set1  is complete 
+set3        1110: set3  is complete 
+set4        1210: Time left for process:   150 
+set8        1310: Time left for process:   400 
+set9        1410: Time left for process:    50 
+set10       1510: Time left for process:   320 
+set11       1610: Time left for process:    20 
+set12       1710: Time left for process:    80 
+set4        1810: Time left for process:    50 
+set8        1910: Time left for process:   300 
+set9        1960: set9  is complete 
+set10       2060: Time left for process:   220 
+set11       2080: set11 is complete 
+set12       2160: set12 is complete 
+set4        2210: set4  is complete 
+set8        2310: Time left for process:   200 
+set10       2410: Time left for process:   120 
+set8        2510: Time left for process:   100 
+set10       2610: Time left for process:    20 
+set8        2710: set8  is complete 
+set10       2730: set10 is complete 
+set1         100: Time left for process:    50 
+set2         180: set2  is complete 
+set3         280: Time left for process:   100 
+set4         380: Time left for process:   250 
+set5         400: set5  is complete 
+set6         410: set6  is complete 
+set7         460: set7  is complete 
+set8         560: Time left for process:   500 
+set9         660: Time left for process:   150 
+set10        760: Time left for process:   420 
+set11        860: Time left for process:   120 
+set12        960: Time left for process:   180 
+set1        1010: set1  is complete 
+set3        1110: set3  is complete 
+set4        1210: Time left for process:   150 
+set8        1310: Time left for process:   400 
+set9        1410: Time left for process:    50 
+set10       1510: Time left for process:   320 
+set11       1610: Time left for process:    20 
+set12       1710: Time left for process:    80 
+set4        1810: Time left for process:    50 
+set8        1910: Time left for process:   300 
+set9        1960: set9  is complete 
+set10       2060: Time left for process:   220 
+set11       2080: set11 is complete 
+set12       2160: set12 is complete 
+set4        2210: set4  is complete 
+set8        2310: Time left for process:   200 
+set10       2410: Time left for process:   120 
+set8        2510: Time left for process:   100 
+set10       2610: Time left for process:    20 
+set8        2710: set8  is complete 
+set10       2730: set10 is complete 
