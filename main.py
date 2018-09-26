@@ -34,5 +34,4 @@ with open('test.txt','r') as file:
     print("Complete time is {0}".format(CPUTime))
 
 with open('output.txt', 'w') as outFile:
-    # outFile.del('') # i will fix it 
     outFile.write(output)
