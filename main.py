@@ -27,10 +27,8 @@ with open('test.txt','r') as file:
         if process.time > 0:
             tasks.put(process)
             output += "{0:<5} {1:>10}: Time left for process: {2:>5} \n".format(process.name, CPUTime, process.time)
-            print("{0:<5} {1:>10}: Time left for process: {2:>5}".format(process.name, CPUTime, process.time))
         else:
             output += "{0:<5} {1:>10}: {2:<5} is complete \n".format(process.name, CPUTime, process.name)
-            print("{0:<5} {1:>10}: {2:<5} is complete".format(process.name, CPUTime, process.name))
     print("Complete time is {0}".format(CPUTime))
 
 with open('output.txt', 'w') as outFile:
