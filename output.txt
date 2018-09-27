@@ -1,0 +1,67 @@
+    4       set1: put on processor 
+  107       set1: Time left for process:    50 
+  111       set2: put on processor 
+  191       set2: set2 is complete 
+  195       set3: put on processor 
+  298       set3: Time left for process:   100 
+  302       set4: put on processor 
+  405       set4: Time left for process:   250 
+  409       set5: put on processor 
+  429       set5: set5 is complete 
+  433       set6: put on processor 
+  443       set6: set6 is complete 
+  447       set7: put on processor 
+  497       set7: set7 is complete 
+  501       set8: put on processor 
+  604       set8: Time left for process:   500 
+  608       set9: put on processor 
+  711       set9: Time left for process:   150 
+  715      set10: put on processor 
+  818      set10: Time left for process:   420 
+  822      set11: put on processor 
+  925      set11: Time left for process:   120 
+  929      set12: put on processor 
+ 1032      set12: Time left for process:   180 
+ 1036       set1: put on processor 
+ 1086       set1: set1 is complete 
+ 1090       set3: put on processor 
+ 1190       set3: set3 is complete 
+ 1194       set4: put on processor 
+ 1297       set4: Time left for process:   150 
+ 1301       set8: put on processor 
+ 1404       set8: Time left for process:   400 
+ 1408       set9: put on processor 
+ 1511       set9: Time left for process:    50 
+ 1515      set10: put on processor 
+ 1618      set10: Time left for process:   320 
+ 1622      set11: put on processor 
+ 1725      set11: Time left for process:    20 
+ 1729      set12: put on processor 
+ 1832      set12: Time left for process:    80 
+ 1836       set4: put on processor 
+ 1939       set4: Time left for process:    50 
+ 1943       set8: put on processor 
+ 2046       set8: Time left for process:   300 
+ 2050       set9: put on processor 
+ 2100       set9: set9 is complete 
+ 2104      set10: put on processor 
+ 2207      set10: Time left for process:   220 
+ 2211      set11: put on processor 
+ 2231      set11: set11 is complete 
+ 2235      set12: put on processor 
+ 2315      set12: set12 is complete 
+ 2319       set4: put on processor 
+ 2369       set4: set4 is complete 
+ 2373       set8: put on processor 
+ 2476       set8: Time left for process:   200 
+ 2480      set10: put on processor 
+ 2583      set10: Time left for process:   120 
+ 2587       set8: put on processor 
+ 2690       set8: Time left for process:   100 
+ 2694      set10: put on processor 
+ 2797      set10: Time left for process:    20 
+ 2801       set8: put on processor 
+ 2901       set8: set8 is complete 
+ 2905      set10: put on processor 
+ 2925      set10: set10 is complete 
+Complete time is 2925
