@@ -18,9 +18,9 @@ class Process:
         self.name = name
         self.time = time
 
-output = ''
+output = '{0:>5} {1:>10} {2:>5} \n\n'.format('Time', 'PID', 'log')
 
-with open('test.txt','r') as file:
+with open('test.txt','r') as file: # read file
     ele = file.readline().split()
     eleNum = int(ele[0]) # number of process
     TASK_TIME_LIMIT = int(ele[1]) 
@@ -45,7 +45,8 @@ with open('test.txt','r') as file:
             output += "{1:>5} {0:>10}: Time left for process: {2:>5} \n".format(process.name, CPUTime, process.time)
         else:
             output += "{1:>5} {0:>10}: {2} is complete \n".format(process.name, CPUTime, process.name)
+
     output += ("Complete time is {0}\n".format(CPUTime))
     
-    with open('output.txt', 'w') as outFile:
+    with open('output.txt', 'w') as outFile: # output results
         outFile.write(output)

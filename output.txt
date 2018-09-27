@@ -1,3 +1,5 @@
+ Time        PID   log 
+
     4       set1: put on processor 
   107       set1: Time left for process:    50 
   111       set2: put on processor 
