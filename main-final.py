@@ -18,9 +18,9 @@ class Process:
         self.name = name
         self.time = time
 
-output = '{0:>5} {1:>10} {2:>5} \n\n'.format('Time', 'PID', 'log')
 
 with open('test.txt','r') as file: # read file
+    output = '{0:>5} {1:>10} {2:>5} \n\n'.format('Time', 'PID', 'log') # for output.txt file
     ele = file.readline().split()
     eleNum = int(ele[0]) # number of process
     TASK_TIME_LIMIT = int(ele[1]) 
