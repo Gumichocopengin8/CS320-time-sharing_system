@@ -44,7 +44,7 @@ with open('test.txt','r') as file: # read file
             CPUTime += 3 #OVERHEAD for saving an incomplete process
             output += "{1:>5} {0:>10}: Time left for process: {2:>5} \n".format(process.name, CPUTime, process.time)
         else:
-            output += "{1:>5} {0:>10}: {2} is complete \n".format(process.name, CPUTime, process.name)
+            output += "{1:>5} {0:>10}: complete \n".format(process.name, CPUTime)
 
     output += ("Complete time is {0}\n".format(CPUTime))
     
