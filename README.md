@@ -42,5 +42,4 @@ Upon completion, please submit the following through Moodle.  This project is wo
 -	During a lab period following the due date, you may be asked to provide a demonstration of your simulator in action and describe your design and results.
 
 ## Python Version
-- Python 3.7.0
-- 
+- Python 3.6.0^
