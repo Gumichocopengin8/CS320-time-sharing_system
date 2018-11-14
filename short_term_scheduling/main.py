@@ -24,7 +24,7 @@ class Process:
         self.waitT = 0
         self.serviceT = 0
 
-with open('test.txt','r') as file: # read file
+with open('short_term_scheduling/test.txt','r') as file: # read file
     startTime = {}
     endTime = {}
     auditLog = '{0:>5} {1:>10} {2:>5} \n\n'.format('Time', 'PID', 'log') # for output.txt file
@@ -37,11 +37,11 @@ with open('test.txt','r') as file: # read file
         for j in range(0, eleNum):
             shortest = 1000000000 #inf
             stringArray = file.readline().split()
-            process = Process(stringArray[0], int(stringArray[1]))
+            process = Process(0, 0)
             if(int(process.time) < shortest):
                 tasks.put(process)
                 print(process.name, "queued")
-                ele[1][j].replace(1000000001)
+                # ele[1][j] = 1000000001
 
     CPUTime = 0 #clock ticks
     while not tasks.empty(): # while have processes
@@ -61,5 +61,5 @@ with open('test.txt','r') as file: # read file
 
     auditLog += ("Complete time is {0}\n".format(CPUTime))
     
-    with open('auditLog.txt', 'w') as outFile: # output results
+    with open('short_term_scheduling/auditLog.txt', 'w') as outFile: # output results
         outFile.write(auditLog)
