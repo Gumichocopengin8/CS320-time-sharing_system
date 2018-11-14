@@ -1,0 +1,13 @@
+12 100
+set1 150
+set2 80
+set3 200
+set4 350
+set5 20
+set6 10
+set7 50
+set8 600
+set9 250
+set10 520
+set11 220
+set12 280
