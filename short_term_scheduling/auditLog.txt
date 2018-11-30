@@ -1,29 +1,27 @@
  Time        PID   log 
 
-    4       set6: put on processor
-   14       set6: complete
-   18       set5: put on processor
-   38       set5: complete
-   42       set7: put on processor
-   92       set7: complete
-   96       set2: put on processor
-  176       set2: complete
-  180       set1: put on processor
-  330       set1: complete
-  334       set3: put on processor
-  534       set3: complete
-  538      set11: put on processor
-  758      set11: complete
-  762       set9: put on processor
- 1012       set9: complete
- 1016      set12: put on processor
- 1296      set12: complete
- 1300       set4: put on processor
- 1650       set4: complete
- 1654      set10: put on processor
- 2174      set10: complete
- 2178       set8: put on processor
- 2778       set8: complete
- 2782      set13: put on processor
- 5582      set13: complete
-Complete time is 5582
+    4       set6: put on processor 
+   14       set6: complete 
+   18       set5: put on processor 
+   38       set5: complete 
+   42       set7: put on processor 
+   92       set7: complete 
+   96       set2: put on processor 
+  176       set2: complete 
+  180       set1: put on processor 
+  330       set1: complete 
+  334       set3: put on processor 
+  534       set3: complete 
+  538      set11: put on processor 
+  758      set11: complete 
+  762       set9: put on processor 
+ 1012       set9: complete 
+ 1016      set12: put on processor 
+ 1296      set12: complete 
+ 1300       set4: put on processor 
+ 1650       set4: complete 
+ 1654      set10: put on processor 
+ 2174      set10: complete 
+ 2178       set8: put on processor 
+ 2778       set8: complete 
+Complete time is 2778

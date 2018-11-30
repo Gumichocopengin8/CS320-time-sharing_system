@@ -7,12 +7,10 @@
 # OS Simulation
 
 # This program Simulates a Time Sharing Operating System
-
 # It takes an input file 'input.txt.' to run. The format of the input file should be as follows:
 # <number of tasks> <CPU time limit>
 # <job1 name> <job1 total time>
 # <jobN name> <jobN total time>
-
 # It will also provide an output file named 'auditLog.txt'
 
 import queue
