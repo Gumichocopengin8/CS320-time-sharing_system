@@ -27,3 +27,5 @@
  2782      set13: put on processor
  5582      set13: complete
 Complete time is 5582
+Average turnaround time is 1264.1538461538462
+Average normalized turnaround time is 3.0654347959732577
