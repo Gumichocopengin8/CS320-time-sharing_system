@@ -3,7 +3,7 @@
 # Kyle Wyse # COO
 # Koki Omori # CFO
 # 30 Sep 2018
-# Updated 3 Dec 2018
+# Updated 6 Dec 2018
 # OS Simulation
 
 # This program Simulates a Time Sharing Operating System
@@ -48,4 +48,3 @@ with open('test.txt','r') as file, open('auditLog.txt','w') as outFile:
     auditLog += ("Average turnaround time is {0}\n".format(totTurnTime/len(data)))
     auditLog += ("Average normalized turnaround time is {0}\n".format(totNormTurnTime/len(data)))
     outFile.write(auditLog)
-    
